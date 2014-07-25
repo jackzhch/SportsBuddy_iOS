@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7D41E71981C3F800B78F6A /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41E61981C3F800B78F6A /* SignUpViewController.m */; };
+		FA7D41EA1981EE5A00B78F6A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41E91981EE5A00B78F6A /* HomeViewController.m */; };
+		FA7D41F41981F92300B78F6A /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41F31981F92300B78F6A /* TeamViewController.m */; };
+		FA7D41F71981F96500B78F6A /* DiscussionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41F61981F96500B78F6A /* DiscussionViewController.m */; };
+		FA7D41FA1981F97800B78F6A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41F91981F97800B78F6A /* ProfileViewController.m */; };
+		FAB381FF1981701500D405E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB381FE1981701500D405E0 /* Foundation.framework */; };
+		FAB382011981701500D405E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB382001981701500D405E0 /* CoreGraphics.framework */; };
+		FAB382031981701500D405E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB382021981701500D405E0 /* UIKit.framework */; };
+		FAB382091981701500D405E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB382071981701500D405E0 /* InfoPlist.strings */; };
+		FAB3820B1981701500D405E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB3820A1981701500D405E0 /* main.m */; };
+		FAB3820F1981701500D405E0 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB3820E1981701500D405E0 /* SBAppDelegate.m */; };
+		FAB382121981701500D405E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB382101981701500D405E0 /* Main.storyboard */; };
+		FAB382171981701500D405E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB382161981701500D405E0 /* Images.xcassets */; };
+		FAB3821E1981701500D405E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB3821D1981701500D405E0 /* XCTest.framework */; };
+		FAB3821F1981701500D405E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB381FE1981701500D405E0 /* Foundation.framework */; };
+		FAB382201981701500D405E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB382021981701500D405E0 /* UIKit.framework */; };
+		FAB382281981701500D405E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB382261981701500D405E0 /* InfoPlist.strings */; };
+		FAB3822A1981701500D405E0 /* sportsbuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB382291981701500D405E0 /* sportsbuddyTests.m */; };
+		FAB3823B19818E7600D405E0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB3823A19818E7600D405E0 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB382211981701500D405E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB381F31981701500D405E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB381FA1981701500D405E0;
+			remoteInfo = sportsbuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7D41E51981C3F800B78F6A /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		FA7D41E61981C3F800B78F6A /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		FA7D41E81981EE5A00B78F6A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FA7D41E91981EE5A00B78F6A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FA7D41F21981F92300B78F6A /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		FA7D41F31981F92300B78F6A /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		FA7D41F51981F96500B78F6A /* DiscussionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscussionViewController.h; sourceTree = "<group>"; };
+		FA7D41F61981F96500B78F6A /* DiscussionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussionViewController.m; sourceTree = "<group>"; };
+		FA7D41F81981F97800B78F6A /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		FA7D41F91981F97800B78F6A /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		FAB381FB1981701500D405E0 /* sportsbuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportsbuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB381FE1981701500D405E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAB382001981701500D405E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAB382021981701500D405E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAB382061981701500D405E0 /* sportsbuddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sportsbuddy-Info.plist"; sourceTree = "<group>"; };
+		FAB382081981701500D405E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAB3820A1981701500D405E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB3820C1981701500D405E0 /* sportsbuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sportsbuddy-Prefix.pch"; sourceTree = "<group>"; };
+		FAB3820D1981701500D405E0 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		FAB3820E1981701500D405E0 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		FAB382111981701500D405E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB382161981701500D405E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = sportsbuddy/Images.xcassets; sourceTree = "<group>"; };
+		FAB3821C1981701500D405E0 /* sportsbuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sportsbuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB3821D1981701500D405E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAB382251981701500D405E0 /* sportsbuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sportsbuddyTests-Info.plist"; sourceTree = "<group>"; };
+		FAB382271981701500D405E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAB382291981701500D405E0 /* sportsbuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sportsbuddyTests.m; sourceTree = "<group>"; };
+		FAB3823919818E7600D405E0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FAB3823A19818E7600D405E0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB381F81981701500D405E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB382011981701500D405E0 /* CoreGraphics.framework in Frameworks */,
+				FAB382031981701500D405E0 /* UIKit.framework in Frameworks */,
+				FAB381FF1981701500D405E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB382191981701500D405E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3821E1981701500D405E0 /* XCTest.framework in Frameworks */,
+				FAB382201981701500D405E0 /* UIKit.framework in Frameworks */,
+				FAB3821F1981701500D405E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7D41EB1981EE6A00B78F6A /* Model-CZ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model-CZ";
+			sourceTree = "<group>";
+		};
+		FAB381F21981701500D405E0 = {
+			isa = PBXGroup;
+			children = (
+				FAB382041981701500D405E0 /* sportsbuddy */,
+				FAB382231981701500D405E0 /* sportsbuddyTests */,
+				FAB381FD1981701500D405E0 /* Frameworks */,
+				FAB381FC1981701500D405E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB381FC1981701500D405E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB381FB1981701500D405E0 /* sportsbuddy.app */,
+				FAB3821C1981701500D405E0 /* sportsbuddyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB381FD1981701500D405E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB381FE1981701500D405E0 /* Foundation.framework */,
+				FAB382001981701500D405E0 /* CoreGraphics.framework */,
+				FAB382021981701500D405E0 /* UIKit.framework */,
+				FAB3821D1981701500D405E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB382041981701500D405E0 /* sportsbuddy */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D41EB1981EE6A00B78F6A /* Model-CZ */,
+				FAB382351981708F00D405E0 /* Model-WS */,
+				FAB382341981708000D405E0 /* Controller */,
+				FAB382331981705500D405E0 /* View */,
+				FAB382051981701500D405E0 /* Supporting Files */,
+			);
+			path = sportsbuddy;
+			sourceTree = "<group>";
+		};
+		FAB382051981701500D405E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3820D1981701500D405E0 /* SBAppDelegate.h */,
+				FAB3820E1981701500D405E0 /* SBAppDelegate.m */,
+				FAB382061981701500D405E0 /* sportsbuddy-Info.plist */,
+				FAB382071981701500D405E0 /* InfoPlist.strings */,
+				FAB3820A1981701500D405E0 /* main.m */,
+				FAB3820C1981701500D405E0 /* sportsbuddy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB382231981701500D405E0 /* sportsbuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB382291981701500D405E0 /* sportsbuddyTests.m */,
+				FAB382241981701500D405E0 /* Supporting Files */,
+			);
+			path = sportsbuddyTests;
+			sourceTree = "<group>";
+		};
+		FAB382241981701500D405E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB382251981701500D405E0 /* sportsbuddyTests-Info.plist */,
+				FAB382261981701500D405E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB382331981705500D405E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAB382101981701500D405E0 /* Main.storyboard */,
+				FAB382161981701500D405E0 /* Images.xcassets */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FAB382341981708000D405E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D41E81981EE5A00B78F6A /* HomeViewController.h */,
+				FA7D41E91981EE5A00B78F6A /* HomeViewController.m */,
+				FAB3823919818E7600D405E0 /* LoginViewController.h */,
+				FAB3823A19818E7600D405E0 /* LoginViewController.m */,
+				FA7D41E51981C3F800B78F6A /* SignUpViewController.h */,
+				FA7D41E61981C3F800B78F6A /* SignUpViewController.m */,
+				FA7D41F21981F92300B78F6A /* TeamViewController.h */,
+				FA7D41F31981F92300B78F6A /* TeamViewController.m */,
+				FA7D41F51981F96500B78F6A /* DiscussionViewController.h */,
+				FA7D41F61981F96500B78F6A /* DiscussionViewController.m */,
+				FA7D41F81981F97800B78F6A /* ProfileViewController.h */,
+				FA7D41F91981F97800B78F6A /* ProfileViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FAB382351981708F00D405E0 /* Model-WS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model-WS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB381FA1981701500D405E0 /* sportsbuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB3822D1981701500D405E0 /* Build configuration list for PBXNativeTarget "sportsbuddy" */;
+			buildPhases = (
+				FAB381F71981701500D405E0 /* Sources */,
+				FAB381F81981701500D405E0 /* Frameworks */,
+				FAB381F91981701500D405E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sportsbuddy;
+			productName = sportsbuddy;
+			productReference = FAB381FB1981701500D405E0 /* sportsbuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB3821B1981701500D405E0 /* sportsbuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB382301981701500D405E0 /* Build configuration list for PBXNativeTarget "sportsbuddyTests" */;
+			buildPhases = (
+				FAB382181981701500D405E0 /* Sources */,
+				FAB382191981701500D405E0 /* Frameworks */,
+				FAB3821A1981701500D405E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB382221981701500D405E0 /* PBXTargetDependency */,
+			);
+			name = sportsbuddyTests;
+			productName = sportsbuddyTests;
+			productReference = FAB3821C1981701500D405E0 /* sportsbuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB381F31981701500D405E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Carnegie_Mellon;
+				TargetAttributes = {
+					FAB3821B1981701500D405E0 = {
+						TestTargetID = FAB381FA1981701500D405E0;
+					};
+				};
+			};
+			buildConfigurationList = FAB381F61981701500D405E0 /* Build configuration list for PBXProject "sportsbuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB381F21981701500D405E0;
+			productRefGroup = FAB381FC1981701500D405E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB381FA1981701500D405E0 /* sportsbuddy */,
+				FAB3821B1981701500D405E0 /* sportsbuddyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB381F91981701500D405E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB382171981701500D405E0 /* Images.xcassets in Resources */,
+				FAB382091981701500D405E0 /* InfoPlist.strings in Resources */,
+				FAB382121981701500D405E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3821A1981701500D405E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB382281981701500D405E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB381F71981701500D405E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3820B1981701500D405E0 /* main.m in Sources */,
+				FA7D41F41981F92300B78F6A /* TeamViewController.m in Sources */,
+				FA7D41FA1981F97800B78F6A /* ProfileViewController.m in Sources */,
+				FA7D41F71981F96500B78F6A /* DiscussionViewController.m in Sources */,
+				FAB3820F1981701500D405E0 /* SBAppDelegate.m in Sources */,
+				FA7D41E71981C3F800B78F6A /* SignUpViewController.m in Sources */,
+				FA7D41EA1981EE5A00B78F6A /* HomeViewController.m in Sources */,
+				FAB3823B19818E7600D405E0 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB382181981701500D405E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3822A1981701500D405E0 /* sportsbuddyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB382221981701500D405E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB381FA1981701500D405E0 /* sportsbuddy */;
+			targetProxy = FAB382211981701500D405E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAB382071981701500D405E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB382081981701500D405E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAB382101981701500D405E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB382111981701500D405E0 /* Base */,
+			);
+			name = Main.storyboard;
+			path = sportsbuddy;
+			sourceTree = "<group>";
+		};
+		FAB382261981701500D405E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB382271981701500D405E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB3822B1981701500D405E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAB3822C1981701500D405E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB3822E1981701500D405E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sportsbuddy/sportsbuddy-Prefix.pch";
+				INFOPLIST_FILE = "sportsbuddy/sportsbuddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAB3822F1981701500D405E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sportsbuddy/sportsbuddy-Prefix.pch";
+				INFOPLIST_FILE = "sportsbuddy/sportsbuddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAB382311981701500D405E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sportsbuddy.app/sportsbuddy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sportsbuddy/sportsbuddy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "sportsbuddyTests/sportsbuddyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAB382321981701500D405E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sportsbuddy.app/sportsbuddy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sportsbuddy/sportsbuddy-Prefix.pch";
+				INFOPLIST_FILE = "sportsbuddyTests/sportsbuddyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB381F61981701500D405E0 /* Build configuration list for PBXProject "sportsbuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB3822B1981701500D405E0 /* Debug */,
+				FAB3822C1981701500D405E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB3822D1981701500D405E0 /* Build configuration list for PBXNativeTarget "sportsbuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB3822E1981701500D405E0 /* Debug */,
+				FAB3822F1981701500D405E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB382301981701500D405E0 /* Build configuration list for PBXNativeTarget "sportsbuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB382311981701500D405E0 /* Debug */,
+				FAB382321981701500D405E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB381F31981701500D405E0 /* Project object */;
+}
