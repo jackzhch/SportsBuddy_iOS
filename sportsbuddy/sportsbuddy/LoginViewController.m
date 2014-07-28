@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import <Parse/Parse.h>
 
 @interface LoginViewController () {
     UITextField *activeTextField;
@@ -37,10 +38,30 @@
     [self.view addGestureRecognizer:tap];
 }
 
--(void)dismissKeyboard
+
+// connect to parse back-end to verify user credential
+- (IBAction)loginButtonPressed:(UIButton *)sender {
+    
+    NSString *username = self.textFieldUsername.text;
+    NSString *password = self.textFieldPassword.text;
+    if ([username length] == 0 || [password length] == 0) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Sorry" message: @"Please enter a valid username and password" delegate: nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+    } else {
+        
+        [PFUser logInWithUsernameInBackground:username password:password block:^(PFUser *user, NSError *error) {
+            if (error) {
+                UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Sorry" message:[error.userInfo objectForKey:@"error"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                [alertView show];
+            } else {
+                [self performSegueWithIdentifier: @"loginSegue" sender: self];
+            }
+        }];
+    }
+}
+
+- (void)dismissKeyboard
 {
-    NSLog(@"Reached here...");
-    NSLog(@"%@", activeTextField);
     [activeTextField resignFirstResponder];
 }
 
@@ -54,8 +75,6 @@
 {
     activeTextField = textField;
 }
-
-
 
 /*
 #pragma mark - Navigation

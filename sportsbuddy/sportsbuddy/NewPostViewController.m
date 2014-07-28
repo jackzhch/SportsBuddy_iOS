@@ -1,18 +1,18 @@
 //
-//  SignUpViewController.m
+//  NewPostViewController.m
 //  sportsbuddy
 //
-//  Created by Wenting Shi on 7/24/14.
+//  Created by Wenting Shi on 7/27/14.
 //  Copyright (c) 2014 Carnegie_Mellon. All rights reserved.
 //
 
-#import "SignUpViewController.h"
+#import "NewPostViewController.h"
 
-@interface SignUpViewController ()
+@interface NewPostViewController ()
 
 @end
 
-@implementation SignUpViewController
+@implementation NewPostViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,6 +33,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)cancelButtonPressed:(UIBarButtonItem *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)postButtonPressed:(UIBarButtonItem *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*

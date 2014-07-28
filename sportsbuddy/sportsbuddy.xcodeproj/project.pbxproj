@@ -7,11 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA459AD7198549F500063A20 /* ReplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459AD6198549F500063A20 /* ReplyTableViewCell.m */; };
+		FA459ADA19855B5D00063A20 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459AD919855B5D00063A20 /* NewPostViewController.m */; };
+		FA459ADD198574B500063A20 /* TeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459ADC198574B500063A20 /* TeamTableViewCell.m */; };
+		FA459AE01985826800063A20 /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459ADF1985826800063A20 /* TeamDetailViewController.m */; };
+		FA459AE51985C8CE00063A20 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AE41985C8CE00063A20 /* Parse.framework */; };
+		FA459AE71985C90600063A20 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AE61985C90600063A20 /* AudioToolbox.framework */; };
+		FA459AE91985C91100063A20 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AE81985C91100063A20 /* CFNetwork.framework */; };
+		FA459AEB1985C92200063A20 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AEA1985C92200063A20 /* CoreLocation.framework */; };
+		FA459AED1985C92C00063A20 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AEC1985C92C00063A20 /* libz.dylib */; };
+		FA459AEF1985C93700063A20 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AEE1985C93700063A20 /* MobileCoreServices.framework */; };
+		FA459AF11985C94100063A20 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AF01985C94100063A20 /* QuartzCore.framework */; };
+		FA459AF31985C94A00063A20 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AF21985C94A00063A20 /* Security.framework */; };
+		FA459AF51985C95200063A20 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AF41985C95200063A20 /* StoreKit.framework */; };
+		FA459AF71985C95C00063A20 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA459AF61985C95C00063A20 /* SystemConfiguration.framework */; };
 		FA7D41E71981C3F800B78F6A /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41E61981C3F800B78F6A /* SignUpViewController.m */; };
 		FA7D41EA1981EE5A00B78F6A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41E91981EE5A00B78F6A /* HomeViewController.m */; };
 		FA7D41F41981F92300B78F6A /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41F31981F92300B78F6A /* TeamViewController.m */; };
 		FA7D41F71981F96500B78F6A /* DiscussionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41F61981F96500B78F6A /* DiscussionViewController.m */; };
 		FA7D41FA1981F97800B78F6A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41F91981F97800B78F6A /* ProfileViewController.m */; };
+		FA7D41FD198362E300B78F6A /* DiscussionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41FC198362E300B78F6A /* DiscussionTableViewCell.m */; };
+		FA7D4200198410AE00B78F6A /* DiscussionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D41FF198410AE00B78F6A /* DiscussionDetailViewController.m */; };
+		FA7D4203198411C200B78F6A /* AddReplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D4202198411C200B78F6A /* AddReplyViewController.m */; };
 		FAB381FF1981701500D405E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB381FE1981701500D405E0 /* Foundation.framework */; };
 		FAB382011981701500D405E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB382001981701500D405E0 /* CoreGraphics.framework */; };
 		FAB382031981701500D405E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB382021981701500D405E0 /* UIKit.framework */; };
@@ -39,6 +56,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA459AD5198549F500063A20 /* ReplyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyTableViewCell.h; sourceTree = "<group>"; };
+		FA459AD6198549F500063A20 /* ReplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyTableViewCell.m; sourceTree = "<group>"; };
+		FA459AD819855B5D00063A20 /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
+		FA459AD919855B5D00063A20 /* NewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
+		FA459ADB198574B500063A20 /* TeamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamTableViewCell.h; sourceTree = "<group>"; };
+		FA459ADC198574B500063A20 /* TeamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTableViewCell.m; sourceTree = "<group>"; };
+		FA459ADE1985826800063A20 /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
+		FA459ADF1985826800063A20 /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		FA459AE41985C8CE00063A20 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FA459AE61985C90600063A20 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA459AE81985C91100063A20 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FA459AEA1985C92200063A20 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA459AEC1985C92C00063A20 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FA459AEE1985C93700063A20 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA459AF01985C94100063A20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA459AF21985C94A00063A20 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA459AF41985C95200063A20 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FA459AF61985C95C00063A20 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FA7D41E51981C3F800B78F6A /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		FA7D41E61981C3F800B78F6A /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		FA7D41E81981EE5A00B78F6A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -49,6 +84,12 @@
 		FA7D41F61981F96500B78F6A /* DiscussionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussionViewController.m; sourceTree = "<group>"; };
 		FA7D41F81981F97800B78F6A /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		FA7D41F91981F97800B78F6A /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		FA7D41FB198362E300B78F6A /* DiscussionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscussionTableViewCell.h; sourceTree = "<group>"; };
+		FA7D41FC198362E300B78F6A /* DiscussionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussionTableViewCell.m; sourceTree = "<group>"; };
+		FA7D41FE198410AE00B78F6A /* DiscussionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscussionDetailViewController.h; sourceTree = "<group>"; };
+		FA7D41FF198410AE00B78F6A /* DiscussionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussionDetailViewController.m; sourceTree = "<group>"; };
+		FA7D4201198411C200B78F6A /* AddReplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReplyViewController.h; sourceTree = "<group>"; };
+		FA7D4202198411C200B78F6A /* AddReplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReplyViewController.m; sourceTree = "<group>"; };
 		FAB381FB1981701500D405E0 /* sportsbuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportsbuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB381FE1981701500D405E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAB382001981701500D405E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,8 +116,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA459AF71985C95C00063A20 /* SystemConfiguration.framework in Frameworks */,
+				FA459AF51985C95200063A20 /* StoreKit.framework in Frameworks */,
+				FA459AF31985C94A00063A20 /* Security.framework in Frameworks */,
+				FA459AF11985C94100063A20 /* QuartzCore.framework in Frameworks */,
+				FA459AEF1985C93700063A20 /* MobileCoreServices.framework in Frameworks */,
+				FA459AED1985C92C00063A20 /* libz.dylib in Frameworks */,
+				FA459AEB1985C92200063A20 /* CoreLocation.framework in Frameworks */,
 				FAB382011981701500D405E0 /* CoreGraphics.framework in Frameworks */,
+				FA459AE91985C91100063A20 /* CFNetwork.framework in Frameworks */,
+				FA459AE71985C90600063A20 /* AudioToolbox.framework in Frameworks */,
 				FAB382031981701500D405E0 /* UIKit.framework in Frameworks */,
+				FA459AE51985C8CE00063A20 /* Parse.framework in Frameworks */,
 				FAB381FF1981701500D405E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +174,16 @@
 		FAB381FD1981701500D405E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA459AF61985C95C00063A20 /* SystemConfiguration.framework */,
+				FA459AF41985C95200063A20 /* StoreKit.framework */,
+				FA459AF21985C94A00063A20 /* Security.framework */,
+				FA459AF01985C94100063A20 /* QuartzCore.framework */,
+				FA459AEE1985C93700063A20 /* MobileCoreServices.framework */,
+				FA459AEC1985C92C00063A20 /* libz.dylib */,
+				FA459AEA1985C92200063A20 /* CoreLocation.framework */,
+				FA459AE81985C91100063A20 /* CFNetwork.framework */,
+				FA459AE61985C90600063A20 /* AudioToolbox.framework */,
+				FA459AE41985C8CE00063A20 /* Parse.framework */,
 				FAB381FE1981701500D405E0 /* Foundation.framework */,
 				FAB382001981701500D405E0 /* CoreGraphics.framework */,
 				FAB382021981701500D405E0 /* UIKit.framework */,
@@ -187,6 +248,8 @@
 		FAB382341981708000D405E0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FA7D41FE198410AE00B78F6A /* DiscussionDetailViewController.h */,
+				FA7D41FF198410AE00B78F6A /* DiscussionDetailViewController.m */,
 				FA7D41E81981EE5A00B78F6A /* HomeViewController.h */,
 				FA7D41E91981EE5A00B78F6A /* HomeViewController.m */,
 				FAB3823919818E7600D405E0 /* LoginViewController.h */,
@@ -199,6 +262,12 @@
 				FA7D41F61981F96500B78F6A /* DiscussionViewController.m */,
 				FA7D41F81981F97800B78F6A /* ProfileViewController.h */,
 				FA7D41F91981F97800B78F6A /* ProfileViewController.m */,
+				FA7D4201198411C200B78F6A /* AddReplyViewController.h */,
+				FA7D4202198411C200B78F6A /* AddReplyViewController.m */,
+				FA459AD819855B5D00063A20 /* NewPostViewController.h */,
+				FA459AD919855B5D00063A20 /* NewPostViewController.m */,
+				FA459ADE1985826800063A20 /* TeamDetailViewController.h */,
+				FA459ADF1985826800063A20 /* TeamDetailViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -206,6 +275,12 @@
 		FAB382351981708F00D405E0 /* Model-WS */ = {
 			isa = PBXGroup;
 			children = (
+				FA7D41FB198362E300B78F6A /* DiscussionTableViewCell.h */,
+				FA7D41FC198362E300B78F6A /* DiscussionTableViewCell.m */,
+				FA459AD5198549F500063A20 /* ReplyTableViewCell.h */,
+				FA459AD6198549F500063A20 /* ReplyTableViewCell.m */,
+				FA459ADB198574B500063A20 /* TeamTableViewCell.h */,
+				FA459ADC198574B500063A20 /* TeamTableViewCell.m */,
 			);
 			name = "Model-WS";
 			sourceTree = "<group>";
@@ -309,12 +384,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB3820B1981701500D405E0 /* main.m in Sources */,
+				FA7D4203198411C200B78F6A /* AddReplyViewController.m in Sources */,
 				FA7D41F41981F92300B78F6A /* TeamViewController.m in Sources */,
 				FA7D41FA1981F97800B78F6A /* ProfileViewController.m in Sources */,
+				FA459ADA19855B5D00063A20 /* NewPostViewController.m in Sources */,
 				FA7D41F71981F96500B78F6A /* DiscussionViewController.m in Sources */,
 				FAB3820F1981701500D405E0 /* SBAppDelegate.m in Sources */,
+				FA7D41FD198362E300B78F6A /* DiscussionTableViewCell.m in Sources */,
+				FA7D4200198410AE00B78F6A /* DiscussionDetailViewController.m in Sources */,
 				FA7D41E71981C3F800B78F6A /* SignUpViewController.m in Sources */,
+				FA459AE01985826800063A20 /* TeamDetailViewController.m in Sources */,
+				FA459ADD198574B500063A20 /* TeamTableViewCell.m in Sources */,
 				FA7D41EA1981EE5A00B78F6A /* HomeViewController.m in Sources */,
+				FA459AD7198549F500063A20 /* ReplyTableViewCell.m in Sources */,
 				FAB3823B19818E7600D405E0 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +523,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sportsbuddy/sportsbuddy-Prefix.pch";
 				INFOPLIST_FILE = "sportsbuddy/sportsbuddy-Info.plist";
@@ -454,6 +540,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sportsbuddy/sportsbuddy-Prefix.pch";
 				INFOPLIST_FILE = "sportsbuddy/sportsbuddy-Info.plist";

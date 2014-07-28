@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DiscussionTableViewCell.h"
 
-@interface DiscussionViewController : UIViewController
+@interface DiscussionViewController : UITableViewController
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSMutableArray *postsArray;
 
 @end

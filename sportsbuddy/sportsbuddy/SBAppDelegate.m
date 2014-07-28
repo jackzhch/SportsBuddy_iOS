@@ -7,12 +7,17 @@
 //
 
 #import "SBAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation SBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
+    [Parse setApplicationId:@"KEYrTbDTamEX2fxfQ7B3Rqwe5EVBsltL4v7nib6h"
+                  clientKey:@"1bQn5Nais4OvtQclrqPu0pRh0wgeGjx2evCEqzIq"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 							

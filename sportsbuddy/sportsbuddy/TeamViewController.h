@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TeamViewController : UIViewController
-
+@interface TeamViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSMutableArray *myTeams;
 @end
