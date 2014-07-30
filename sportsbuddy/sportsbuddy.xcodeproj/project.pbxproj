@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		527E7A7619883E9D00D210A9 /* eventModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A7419883E9D00D210A9 /* eventModel.xcdatamodeld */; };
+		527E7A7F1988427200D210A9 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A7E1988427200D210A9 /* EventViewController.m */; };
+		527E7A821988445E00D210A9 /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A811988445E00D210A9 /* EventTableViewCell.m */; };
+		527E7A8519884B7E00D210A9 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A8419884B7E00D210A9 /* EventDetailViewController.m */; };
+		527E7A8819886F0400D210A9 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A8719886F0400D210A9 /* AddEventViewController.m */; };
+		527E7A8A1988A2F100D210A9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527E7A891988A2F100D210A9 /* MapKit.framework */; };
+		527E7A8D1988A6A600D210A9 /* EventMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A8C1988A6A600D210A9 /* EventMapViewController.m */; };
+		527E7A901988AE3D00D210A9 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A8F1988AE3D00D210A9 /* Event.m */; };
+		527E7A931988CAB700D210A9 /* EventPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A921988CAB700D210A9 /* EventPin.m */; };
 		FA459AD7198549F500063A20 /* ReplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459AD6198549F500063A20 /* ReplyTableViewCell.m */; };
 		FA459ADA19855B5D00063A20 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459AD919855B5D00063A20 /* NewPostViewController.m */; };
 		FA459ADD198574B500063A20 /* TeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459ADC198574B500063A20 /* TeamTableViewCell.m */; };
@@ -56,6 +65,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		527E7A7519883E9D00D210A9 /* eventModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eventModel.xcdatamodel; sourceTree = "<group>"; };
+		527E7A7D1988427200D210A9 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		527E7A7E1988427200D210A9 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		527E7A801988445E00D210A9 /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		527E7A811988445E00D210A9 /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		527E7A8319884B7E00D210A9 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		527E7A8419884B7E00D210A9 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		527E7A8619886F0400D210A9 /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		527E7A8719886F0400D210A9 /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		527E7A891988A2F100D210A9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		527E7A8B1988A6A600D210A9 /* EventMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventMapViewController.h; sourceTree = "<group>"; };
+		527E7A8C1988A6A600D210A9 /* EventMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventMapViewController.m; sourceTree = "<group>"; };
+		527E7A8E1988AE3D00D210A9 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		527E7A8F1988AE3D00D210A9 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		527E7A911988CAB700D210A9 /* EventPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPin.h; sourceTree = "<group>"; };
+		527E7A921988CAB700D210A9 /* EventPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventPin.m; sourceTree = "<group>"; };
 		FA459AD5198549F500063A20 /* ReplyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyTableViewCell.h; sourceTree = "<group>"; };
 		FA459AD6198549F500063A20 /* ReplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyTableViewCell.m; sourceTree = "<group>"; };
 		FA459AD819855B5D00063A20 /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
@@ -116,13 +141,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA459AEB1985C92200063A20 /* CoreLocation.framework in Frameworks */,
+				527E7A8A1988A2F100D210A9 /* MapKit.framework in Frameworks */,
 				FA459AF71985C95C00063A20 /* SystemConfiguration.framework in Frameworks */,
 				FA459AF51985C95200063A20 /* StoreKit.framework in Frameworks */,
 				FA459AF31985C94A00063A20 /* Security.framework in Frameworks */,
 				FA459AF11985C94100063A20 /* QuartzCore.framework in Frameworks */,
 				FA459AEF1985C93700063A20 /* MobileCoreServices.framework in Frameworks */,
 				FA459AED1985C92C00063A20 /* libz.dylib in Frameworks */,
-				FA459AEB1985C92200063A20 /* CoreLocation.framework in Frameworks */,
 				FAB382011981701500D405E0 /* CoreGraphics.framework in Frameworks */,
 				FA459AE91985C91100063A20 /* CFNetwork.framework in Frameworks */,
 				FA459AE71985C90600063A20 /* AudioToolbox.framework in Frameworks */,
@@ -148,6 +174,11 @@
 		FA7D41EB1981EE6A00B78F6A /* Model-CZ */ = {
 			isa = PBXGroup;
 			children = (
+				527E7A801988445E00D210A9 /* EventTableViewCell.h */,
+				527E7A811988445E00D210A9 /* EventTableViewCell.m */,
+				527E7A8E1988AE3D00D210A9 /* Event.h */,
+				527E7A8F1988AE3D00D210A9 /* Event.m */,
+				527E7A7419883E9D00D210A9 /* eventModel.xcdatamodeld */,
 			);
 			name = "Model-CZ";
 			sourceTree = "<group>";
@@ -174,6 +205,7 @@
 		FAB381FD1981701500D405E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				527E7A891988A2F100D210A9 /* MapKit.framework */,
 				FA459AF61985C95C00063A20 /* SystemConfiguration.framework */,
 				FA459AF41985C95200063A20 /* StoreKit.framework */,
 				FA459AF21985C94A00063A20 /* Security.framework */,
@@ -248,6 +280,14 @@
 		FAB382341981708000D405E0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				527E7A8B1988A6A600D210A9 /* EventMapViewController.h */,
+				527E7A8C1988A6A600D210A9 /* EventMapViewController.m */,
+				527E7A911988CAB700D210A9 /* EventPin.h */,
+				527E7A921988CAB700D210A9 /* EventPin.m */,
+				527E7A8319884B7E00D210A9 /* EventDetailViewController.h */,
+				527E7A8419884B7E00D210A9 /* EventDetailViewController.m */,
+				527E7A7D1988427200D210A9 /* EventViewController.h */,
+				527E7A7E1988427200D210A9 /* EventViewController.m */,
 				FA7D41FE198410AE00B78F6A /* DiscussionDetailViewController.h */,
 				FA7D41FF198410AE00B78F6A /* DiscussionDetailViewController.m */,
 				FA7D41E81981EE5A00B78F6A /* HomeViewController.h */,
@@ -264,6 +304,8 @@
 				FA7D41F91981F97800B78F6A /* ProfileViewController.m */,
 				FA7D4201198411C200B78F6A /* AddReplyViewController.h */,
 				FA7D4202198411C200B78F6A /* AddReplyViewController.m */,
+				527E7A8619886F0400D210A9 /* AddEventViewController.h */,
+				527E7A8719886F0400D210A9 /* AddEventViewController.m */,
 				FA459AD819855B5D00063A20 /* NewPostViewController.h */,
 				FA459AD919855B5D00063A20 /* NewPostViewController.m */,
 				FA459ADE1985826800063A20 /* TeamDetailViewController.h */,
@@ -383,14 +425,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527E7A901988AE3D00D210A9 /* Event.m in Sources */,
 				FAB3820B1981701500D405E0 /* main.m in Sources */,
 				FA7D4203198411C200B78F6A /* AddReplyViewController.m in Sources */,
+				527E7A7619883E9D00D210A9 /* eventModel.xcdatamodeld in Sources */,
+				527E7A7F1988427200D210A9 /* EventViewController.m in Sources */,
 				FA7D41F41981F92300B78F6A /* TeamViewController.m in Sources */,
+				527E7A821988445E00D210A9 /* EventTableViewCell.m in Sources */,
+				527E7A8519884B7E00D210A9 /* EventDetailViewController.m in Sources */,
 				FA7D41FA1981F97800B78F6A /* ProfileViewController.m in Sources */,
+				527E7A8819886F0400D210A9 /* AddEventViewController.m in Sources */,
 				FA459ADA19855B5D00063A20 /* NewPostViewController.m in Sources */,
+				527E7A8D1988A6A600D210A9 /* EventMapViewController.m in Sources */,
 				FA7D41F71981F96500B78F6A /* DiscussionViewController.m in Sources */,
 				FAB3820F1981701500D405E0 /* SBAppDelegate.m in Sources */,
 				FA7D41FD198362E300B78F6A /* DiscussionTableViewCell.m in Sources */,
+				527E7A931988CAB700D210A9 /* EventPin.m in Sources */,
 				FA7D4200198410AE00B78F6A /* DiscussionDetailViewController.m in Sources */,
 				FA7D41E71981C3F800B78F6A /* SignUpViewController.m in Sources */,
 				FA459AE01985826800063A20 /* TeamDetailViewController.m in Sources */,
@@ -623,6 +673,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		527E7A7419883E9D00D210A9 /* eventModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				527E7A7519883E9D00D210A9 /* eventModel.xcdatamodel */,
+			);
+			currentVersion = 527E7A7519883E9D00D210A9 /* eventModel.xcdatamodel */;
+			path = eventModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FAB381F31981701500D405E0 /* Project object */;
 }
