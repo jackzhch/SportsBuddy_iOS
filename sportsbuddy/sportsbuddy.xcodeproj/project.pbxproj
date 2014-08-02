@@ -16,6 +16,10 @@
 		527E7A8D1988A6A600D210A9 /* EventMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A8C1988A6A600D210A9 /* EventMapViewController.m */; };
 		527E7A901988AE3D00D210A9 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A8F1988AE3D00D210A9 /* Event.m */; };
 		527E7A931988CAB700D210A9 /* EventPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A921988CAB700D210A9 /* EventPin.m */; };
+		527E7A961989AC4200D210A9 /* EventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A951989AC4200D210A9 /* EventItem.m */; };
+		527E7A99198B832B00D210A9 /* AutocompletionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A98198B832A00D210A9 /* AutocompletionTableView.m */; };
+		527E7A9C198B901800D210A9 /* LocationSerachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E7A9B198B901800D210A9 /* LocationSerachViewController.m */; };
+		52C9F1DC198C1EDF00BC8D98 /* MMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C9F1DB198C1EDF00BC8D98 /* MMLocationManager.m */; };
 		FA459AD7198549F500063A20 /* ReplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459AD6198549F500063A20 /* ReplyTableViewCell.m */; };
 		FA459ADA19855B5D00063A20 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459AD919855B5D00063A20 /* NewPostViewController.m */; };
 		FA459ADD198574B500063A20 /* TeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA459ADC198574B500063A20 /* TeamTableViewCell.m */; };
@@ -81,6 +85,14 @@
 		527E7A8F1988AE3D00D210A9 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		527E7A911988CAB700D210A9 /* EventPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPin.h; sourceTree = "<group>"; };
 		527E7A921988CAB700D210A9 /* EventPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventPin.m; sourceTree = "<group>"; };
+		527E7A941989AC4200D210A9 /* EventItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventItem.h; sourceTree = "<group>"; };
+		527E7A951989AC4200D210A9 /* EventItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItem.m; sourceTree = "<group>"; };
+		527E7A97198B832A00D210A9 /* AutocompletionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompletionTableView.h; sourceTree = "<group>"; };
+		527E7A98198B832A00D210A9 /* AutocompletionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompletionTableView.m; sourceTree = "<group>"; };
+		527E7A9A198B901800D210A9 /* LocationSerachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSerachViewController.h; sourceTree = "<group>"; };
+		527E7A9B198B901800D210A9 /* LocationSerachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSerachViewController.m; sourceTree = "<group>"; };
+		52C9F1DA198C1EDF00BC8D98 /* MMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLocationManager.h; sourceTree = "<group>"; };
+		52C9F1DB198C1EDF00BC8D98 /* MMLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLocationManager.m; sourceTree = "<group>"; };
 		FA459AD5198549F500063A20 /* ReplyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyTableViewCell.h; sourceTree = "<group>"; };
 		FA459AD6198549F500063A20 /* ReplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyTableViewCell.m; sourceTree = "<group>"; };
 		FA459AD819855B5D00063A20 /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
@@ -174,10 +186,18 @@
 		FA7D41EB1981EE6A00B78F6A /* Model-CZ */ = {
 			isa = PBXGroup;
 			children = (
+				52C9F1DA198C1EDF00BC8D98 /* MMLocationManager.h */,
+				52C9F1DB198C1EDF00BC8D98 /* MMLocationManager.m */,
+				527E7A97198B832A00D210A9 /* AutocompletionTableView.h */,
+				527E7A98198B832A00D210A9 /* AutocompletionTableView.m */,
 				527E7A801988445E00D210A9 /* EventTableViewCell.h */,
 				527E7A811988445E00D210A9 /* EventTableViewCell.m */,
 				527E7A8E1988AE3D00D210A9 /* Event.h */,
 				527E7A8F1988AE3D00D210A9 /* Event.m */,
+				527E7A941989AC4200D210A9 /* EventItem.h */,
+				527E7A951989AC4200D210A9 /* EventItem.m */,
+				527E7A911988CAB700D210A9 /* EventPin.h */,
+				527E7A921988CAB700D210A9 /* EventPin.m */,
 				527E7A7419883E9D00D210A9 /* eventModel.xcdatamodeld */,
 			);
 			name = "Model-CZ";
@@ -282,8 +302,10 @@
 			children = (
 				527E7A8B1988A6A600D210A9 /* EventMapViewController.h */,
 				527E7A8C1988A6A600D210A9 /* EventMapViewController.m */,
-				527E7A911988CAB700D210A9 /* EventPin.h */,
-				527E7A921988CAB700D210A9 /* EventPin.m */,
+				527E7A9A198B901800D210A9 /* LocationSerachViewController.h */,
+				527E7A9B198B901800D210A9 /* LocationSerachViewController.m */,
+				527E7A8619886F0400D210A9 /* AddEventViewController.h */,
+				527E7A8719886F0400D210A9 /* AddEventViewController.m */,
 				527E7A8319884B7E00D210A9 /* EventDetailViewController.h */,
 				527E7A8419884B7E00D210A9 /* EventDetailViewController.m */,
 				527E7A7D1988427200D210A9 /* EventViewController.h */,
@@ -304,8 +326,6 @@
 				FA7D41F91981F97800B78F6A /* ProfileViewController.m */,
 				FA7D4201198411C200B78F6A /* AddReplyViewController.h */,
 				FA7D4202198411C200B78F6A /* AddReplyViewController.m */,
-				527E7A8619886F0400D210A9 /* AddEventViewController.h */,
-				527E7A8719886F0400D210A9 /* AddEventViewController.m */,
 				FA459AD819855B5D00063A20 /* NewPostViewController.h */,
 				FA459AD919855B5D00063A20 /* NewPostViewController.m */,
 				FA459ADE1985826800063A20 /* TeamDetailViewController.h */,
@@ -427,13 +447,17 @@
 			files = (
 				527E7A901988AE3D00D210A9 /* Event.m in Sources */,
 				FAB3820B1981701500D405E0 /* main.m in Sources */,
+				527E7A99198B832B00D210A9 /* AutocompletionTableView.m in Sources */,
 				FA7D4203198411C200B78F6A /* AddReplyViewController.m in Sources */,
+				52C9F1DC198C1EDF00BC8D98 /* MMLocationManager.m in Sources */,
 				527E7A7619883E9D00D210A9 /* eventModel.xcdatamodeld in Sources */,
 				527E7A7F1988427200D210A9 /* EventViewController.m in Sources */,
 				FA7D41F41981F92300B78F6A /* TeamViewController.m in Sources */,
 				527E7A821988445E00D210A9 /* EventTableViewCell.m in Sources */,
+				527E7A961989AC4200D210A9 /* EventItem.m in Sources */,
 				527E7A8519884B7E00D210A9 /* EventDetailViewController.m in Sources */,
 				FA7D41FA1981F97800B78F6A /* ProfileViewController.m in Sources */,
+				527E7A9C198B901800D210A9 /* LocationSerachViewController.m in Sources */,
 				527E7A8819886F0400D210A9 /* AddEventViewController.m in Sources */,
 				FA459ADA19855B5D00063A20 /* NewPostViewController.m in Sources */,
 				527E7A8D1988A6A600D210A9 /* EventMapViewController.m in Sources */,

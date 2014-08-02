@@ -7,26 +7,21 @@
 //
 
 #import "AddEventViewController.h"
+#import "AutocompletionTableView.h"
+#import "LocationSerachViewController.h"
 
 @interface AddEventViewController ()
+@property (nonatomic, strong) AutocompletionTableView *autoCompleter;
 
 @end
 
 @implementation AddEventViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+@synthesize autoCompleter = _autoCompleter;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.eventType addTarget:self.autoCompleter action:@selector(textFieldValueChanged:) forControlEvents:UIControlEventEditingChanged];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,14 +30,83 @@
     // Dispose of any resources that can be recreated.
 }
 
-// cancel button pressed, dismiss the modal view
-- (IBAction)cancelButtonPressed:(UIBarButtonItem *)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+- (IBAction)setLocation:(UIButton *)sender {
 }
 
-// done button pressed, retrieve the user content and dismiss the modal view
-- (IBAction)doneButtonPressed:(UIBarButtonItem *)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+
+- (IBAction)valueChanged:(UIStepper *)sender {
+    
+    double value = [sender value];
+    [self.maxPeople setText:[NSString stringWithFormat:@"%d", (int)value]];
+    
+}
+
+- (AutocompletionTableView *)autoCompleter
+{
+    if (!_autoCompleter)
+    {
+        NSMutableDictionary *options = [NSMutableDictionary dictionaryWithCapacity:2];
+        _autoCompleter = [[AutocompletionTableView alloc] initWithTextField:self.eventType inViewController:self withOptions:options];
+        _autoCompleter.suggestionsDictionary = [NSArray arrayWithObjects:@"badminton",@"soccer",@"table tennis",@"Tennis",@"basketball", @"football", nil];
+    }
+    return _autoCompleter;
+}
+
+// dismiss keyboard
+- (IBAction)backgroundTap:(id)sender {
+    [sender resignFirstResponder];
+    
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    UITouch *touch = [[event allTouches] anyObject];
+    if ([touch view] != self.eventType && [touch view] != self.eventNotes) {
+        [self.eventNotes resignFirstResponder];
+        [self.eventType resignFirstResponder];
+    }
+    [super touchesBegan:touches withEvent:event];
+}
+
+- (IBAction)unwindToMap:(UIStoryboardSegue *)segue
+{
+    LocationSerachViewController *source = [segue sourceViewController];
+    //EventItem *newItem = source.eventItem;
+    self.eventItem = source.eventItem;
+    [self.eventNotes setText:[NSString stringWithFormat:@"%f",self.eventItem.coordinate.latitude]];
+
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if (sender != self.doneButton) return;
+    //if (self.textField.text.length) {
+    CLLocationCoordinate2D coordinate;
+    self.eventItem = [[EventItem alloc] init];
+    self.eventItem.eventType = self.eventType.text;
+    self.eventItem.latitude = [self.eventLat.text doubleValue];
+    self.eventItem.longitude = [self.eventLng.text doubleValue];
+    coordinate.latitude = self.eventItem.latitude;
+    coordinate.longitude = self.eventItem.longitude;
+    
+    self.eventItem.coordinate = coordinate;
+    self.eventItem.eventType = self.eventType.text;
+    self.eventItem.eventNote = self.eventNotes.text;
+    self.eventItem.eventTime = self.eventDate.date;
+    self.eventItem.eventMaxNum = [self.maxPeople.text intValue];
+    if ([self.eventVisibility isOn]) {
+        self.eventItem.visibility = @"ON";
+        NSLog(@"Switch is ON");
+    } else{
+        self.eventItem.visibility = @"OFF";
+        NSLog(@"Switch is OFF");
+    }
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"YYYY-MM-dd,hh:mm"];
+    NSLog(@"%@", [formatter stringFromDate:self.eventItem.eventTime]);
+    
+    
+    //}
 }
 
 

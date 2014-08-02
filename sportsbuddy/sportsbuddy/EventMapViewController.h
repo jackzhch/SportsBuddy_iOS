@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface EventMapViewController : UIViewController
+- (IBAction)unwindToMap:(UIStoryboardSegue *)segue;
 
 @end
